@@ -22,7 +22,6 @@ jobs:
     - name: Install Dependencies
       run: |
         composer install
-        npm install
     - name: Run
       shell: bash
       run: |
